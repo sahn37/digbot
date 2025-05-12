@@ -103,4 +103,4 @@ class DigBot(discord.Client):
 
 if __name__ == "__main__":
     client = DigBot(intents=discord.Intents.all())
-    client.run("MTM2NzI0NDc4ODc3MTk4MzQ1MQ.GrM7wc.1AxMPL5kYG2mD80quGnWM_HZ19MPBkcnKzrYJk")
+    client.run("remove token")
