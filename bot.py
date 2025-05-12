@@ -32,12 +32,6 @@ class DigBot(discord.Client):
         ls_user_id = [198226746070269952, 369187271590805504, 569525803725881344, 832858137866141746]
         ls_fetch_user = [await client.fetch_user(u) for u in ls_user_id]
 
-
-        # USER_ID = 198226746070269952
-        # user = await client.fetch_user(USER_ID)
-
-        # USER_ID2 = 369187271590805504
-        # user2 = await client.fetch_user(USER_ID2)
         NUM_REPEAT_COUNT = 3
         int_counter = 0
 
@@ -109,4 +103,4 @@ class DigBot(discord.Client):
 
 if __name__ == "__main__":
     client = DigBot(intents=discord.Intents.all())
-    client.run("token here")
+    client.run("MTM2NzI0NDc4ODc3MTk4MzQ1MQ.GrM7wc.1AxMPL5kYG2mD80quGnWM_HZ19MPBkcnKzrYJk")
