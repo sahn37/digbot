@@ -109,4 +109,4 @@ class DigBot(discord.Client):
 
 if __name__ == "__main__":
     client = DigBot(intents=discord.Intents.all())
-    client.run("MTM2NzI0NDc4ODc3MTk4MzQ1MQ.GUvpdo.xkipYl1fcYFP-8KN3xGYaApwZfNfy26lOH1Nrk")
+    client.run("token here")
